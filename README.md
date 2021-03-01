@@ -15,7 +15,7 @@ Simple Android Application for Learning Geometry Basics on English
 
 ## License
 
-    PhotonCamera
+ 
     Copyright (C) 2021  snajdovski
 
     This program is free software: you can redistribute it and/or modify
