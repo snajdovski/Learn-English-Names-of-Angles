@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Name of Angles on English</string>
+
+    <string name="image_of_angle">Image of Angle</string>
+
+    <string name="acute">Acute Angle</string>
+    <string name="obtuse">Obtuse Angle</string>
+    <string name="right">Right Angle</string>
+    <string name="straight">Straight Angle</string>
+    <string name="oblique">Oblique Angle</string>
+    <string name="press_one_of_the_buttons">Press one of the Buttons</string>
+</resources>

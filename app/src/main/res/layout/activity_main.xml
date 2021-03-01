@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/tv_image_angle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/image_of_angle" />
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/tv_image_angle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name_of_the_current_angle"
+            android:text="@string/press_one_of_the_buttons"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/tv_btn_acute"
+            android:text="@string/acute"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            />
+        <Button
+            android:id="@+id/tv_btn_right"
+            android:text="@string/right"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            />
+        <Button
+            android:id="@+id/tv_btn_obtuse"
+            android:text="@string/obtuse"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/tv_btn_straight"
+            android:text="@string/straight"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            />
+        <Button
+            android:id="@+id/tb_btn_oblique"
+            android:text="@string/oblique"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            />
+
+    </TableLayout>
+
+
+
+</RelativeLayout>
